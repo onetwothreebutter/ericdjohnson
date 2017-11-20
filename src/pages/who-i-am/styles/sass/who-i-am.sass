@@ -1,0 +1,22 @@
+@import ../../../../page-components/menu/styles/regular-page
+@import ../../../../styles/sass/page-layout
+@import ../../../../styles/sass/typography
+@import ../../../../styles/sass/breakpoints
+@import ../../../../styles/sass/banner
+@import ../../../../styles/sass/lists
+@import ../../../../styles/sass/images
+
+
+
+.who-banner
+  @include site__banner()
+  background-image: url(/src/pages/who-i-am/images/kristopher-roller-188180.jpg)
+  background-repeat: no-repeat
+  @media screen and (max-width: $mobile-portrait)
+    background-image: url(/src/pages/who-i-am/images/kristopher-roller-188180--mobile.jpg)
+    background-position-x: center
+
+.who-i-am__image
+  @include site__image()
+  display: block
+  margin: 0 auto 50px auto

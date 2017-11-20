@@ -1,0 +1,21 @@
+@import ../../../../page-components/menu/styles/regular-page
+@import ../../../../styles/sass/banner
+@import ../../../../styles/sass/page-layout
+@import ../../../../styles/sass/typography
+@import ../../../../styles/sass/breakpoints
+
+
+// Breakpoints for this page
+$shift-bird-background: 1033px
+
+
+.what-banner
+  @include site__banner()
+  background-image: url(/src/pages/what-im-looking-for/images/ray-hennessy-233399.jpg)
+  background-repeat: no-repeat
+  background-position-y: -123px
+  @media screen and (max-width: $shift-bird-background)
+    background-position-y: -50px
+  @media screen and (max-width: $mobile-portrait)
+    background-image: url(/src/pages/what-im-looking-for/images/ray-hennessy-233399--mobile.jpg)
+    background-position-y: top

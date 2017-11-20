@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'BrandonPrinted';
+  src: url(/src/fonts/brandonprinted-one-webfont.eot);
+  src: url(/src/fonts/brandonprinted-one-webfont.eot?#iefix) format("embedded-opentype"), url(/src/fonts/brandonprinted-one-webfont.woff) format("woff"), url(/src/fonts/brandonprinted-one-webfont.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 0;
+  color: #383838;
+}
+
+h3 {
+  margin-top: 0;
+  color: #383838;
+}
+
+code {
+  background: #eff0f1;
+  padding: 1px 8px;
+  font-size: 19px;
+}
+
+/*** Fonts ***/
+/*** Text groups ***/
+.site__banner-text {
+  font-size: 40px;
+  max-width: 400px;
+}
+
+.site__paragraph-text {
+  font-family: "Ledger", "Times", "serif";
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.site__paragraph-link {
+  font-family: "Ledger", "Times", "serif";
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.site__section-heading {
+  font-size: 40px;
+  font-size: 70px;
+  margin-bottom: -10px;
+  font-family: "Dancing Script", Arial, sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .site__section-heading {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+}
+
+.site__blockquote {
+  margin: auto;
+  max-width: 500px;
+  font-family: "Ledger", "Times", "serif";
+  font-size: 18px;
+}
+
+.site__cite {
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.site__book-title {
+  font-family: "Ledger", "Times", "serif";
+  font-size: 20px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.site__page-width {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .site__section {
+    padding: 0 15px;
+  }
+}
+
+hr.section-divider {
+  margin: 50px 0;
+  height: 6px;
+  border: none;
+  text-align: center;
+}
+
+hr.section-divider:before {
+  content: '...';
+  position: relative;
+  top: -11px;
+  font-size: 30px;
+  margin-left: 18px;
+  letter-spacing: 20px;
+  line-height: 0;
+  font-family: serif;
+}
+
+header {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.33);
+  border-bottom: 1px solid rgba(183, 183, 183, 0.2);
+}
+
+.header__page-width {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 0 30px;
+}
+
+.logo {
+  position: relative;
+  font-family: "BrandonPrinted", "sans-serif";
+  font-size: 20px;
+  color: #CD6258;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 553px) {
+  .logo {
+    margin: auto;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.site__page-width {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .site__section {
+    padding: 0 15px;
+  }
+}
+
+hr.section-divider {
+  margin: 50px 0;
+  height: 6px;
+  border: none;
+  text-align: center;
+}
+
+hr.section-divider:before {
+  content: '...';
+  position: relative;
+  top: -11px;
+  font-size: 30px;
+  margin-left: 18px;
+  letter-spacing: 20px;
+  line-height: 0;
+  font-family: serif;
+}
+
+body {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 553px) {
+  body {
+    padding-bottom: 120px;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  font-size: 14px;
+  text-align: left;
+  color: rgba(109, 109, 109, 0.42);
+  background: #eaeaea;
+  z-index: 1;
+}
+
+@media screen and (max-width: 553px) {
+  footer {
+    bottom: 61px;
+    z-index: 0;
+  }
+}
+
+.footer__page-width {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0 30px;
+  text-align: left;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__page-width {
+    text-align: center;
+  }
+  .homepage .footer__page-width {
+    text-align: left;
+  }
+}

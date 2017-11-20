@@ -1,0 +1,40 @@
+@import ../../../../page-components/menu/styles/regular-page
+@import ../../../../styles/sass/banner
+@import ../../../../styles/sass/page-layout
+@import ../../../../styles/sass/typography
+@import ../../../../styles/sass/breakpoints
+
+
+.resume__banner
+  @include site__banner()
+  background-image: url(/src/pages/contact-me/images/hello-i-m-nik-281498.jpg)
+  background-repeat: no-repeat
+  @media screen and (max-width: $mobile-portrait)
+    background-image: url(/src/pages/contact-me/images/hello-i-m-nik-281498--mobile.jpg)
+
+.resume__banner-heading
+  @include site__banner-heading(#737373)
+
+.resume__paragraph-text
+  @include site__paragraph-text()
+  width: 100vw
+  height: 140vw
+  @media screen and (min-width: 700px)
+    height: 960px
+
+
+.contact-link
+  margin-left: 140px
+  text-decoration: none
+
+.contact-link__text
+  margin-left: 30px
+  font-family: $ledger
+  @media screen and (max-width: $tablet-portrait)
+    text-decoration: underline
+
+.phone-icon
+  width: 80px
+
+.linked-in-logo
+  width: 80px
