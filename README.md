@@ -9,7 +9,7 @@ coding. I started with a copy of HTML5 Boilerplate and the modified it
  
 ## Site Structure
 
-###PHP
+### PHP
 To allow code re-use across my site (eg, including the header and footer on each page), I used some custom PHP. I wanted 
 avoid the overhead of using a larger tool like Drupal or Wordpress. 
 
@@ -18,22 +18,22 @@ avoid the overhead of using a larger tool like Drupal or Wordpress.
 On each webpage of the site (located in `/src/pages`) I include the header, footer and any other includes needed for
 that particular page.
 
-###JS
+### JS
 
-####jQuery
+#### jQuery
 In the spirit of simplicity, I considered using only plain javascript on my site instead of jQuery. But the great readability 
 jQuery and its ubiquity made me go with it.
 
-####GreenSock
+#### GreenSock
 ...coming...
 
-####PixiJS
+#### PixiJS
 ...coming...
 
-####Modernizr
+#### Modernizr
 ...coming...
 
-###CSS
+### CSS
 I used Sass for my CSS pre-processor. I plan to integrate CSS variables in the future, but for now haven't used them.
 
 I decided to try a form of BEM style naming for my CSS classes where I don't extend base classes, but I create mixins. 
