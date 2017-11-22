@@ -269,7 +269,7 @@ code {
 }
 
 .site__paragraph-text {
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   font-size: 20px;
   line-height: 1.6;
   max-width: 700px;
@@ -278,7 +278,7 @@ code {
 }
 
 .site__paragraph-link {
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   font-size: 20px;
   line-height: 1.6;
 }
@@ -301,7 +301,7 @@ code {
 .site__blockquote {
   margin: auto;
   max-width: 500px;
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   font-size: 18px;
 }
 
@@ -312,7 +312,7 @@ code {
 }
 
 .site__book-title {
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   font-size: 20px;
   line-height: 1.6;
   font-style: italic;
@@ -622,7 +622,7 @@ code {
   padding: 10px 0;
   margin: 0;
   font-size: 40px;
-  font-family: "BrandonPrinted", "sans-serif";
+  font-family: "BrandonPrinted", sans-serif;
   line-height: 1;
   color: white;
   text-shadow: 0 0 15px rgba(66, 66, 66, 0.25);
@@ -648,7 +648,7 @@ code {
   margin: 0 auto;
   max-width: 250px;
   color: white;
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   opacity: 0;
   -webkit-transform: translate(0, 10px);
           transform: translate(0, 10px);

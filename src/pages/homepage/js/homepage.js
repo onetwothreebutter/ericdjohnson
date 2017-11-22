@@ -2,9 +2,13 @@
 
     "use strict";
 
+    $(document).ready(function () {
+        HomePage.init();
+    });
+
     window.HomePage = (function ($) {
 
-        var youtubePlayer = null;
+
         var $appendage = $('.easter-egg__appendage');
         var $homepageContainer = $('.homepage-scaling-container');
 
@@ -51,9 +55,10 @@
             $('.easter-egg__close').on('click', triggerAppendage);
         }
 
+        var youtubePlayer = null;
         function loadYoutubeAPI() {
             var tag = document.createElement('script');
-            tag.src = "https://www.youtube.com/iframe_api";
+            tag.src = "//www.youtube.com/iframe_api";
             var firstScriptTag = document.getElementsByTagName('script')[0];
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
@@ -86,14 +91,15 @@
             new TimelineMax()
                 .to($appendage, 0.4, {'bottom': '100vh', ease: Power2.easeIn}, 0);
 
-           var $body = $('body');
-           if(!$body.hasClass('-text-in-focus')) {
-               $body.addClass('-text-in-focus');
-               new TimelineMax()
-                   .set($homepageContainer, {scaleX: 1.0});
-           }
+            var $body = $('body');
+            if(!$body.hasClass('-text-in-focus')) {
+                $body.addClass('-text-in-focus');
+                new TimelineMax()
+                    .set($homepageContainer, {scaleX: 1.0});
+            }
         }
 
+        var youtubePlayer = null;
         function triggerAppendage() {
 
             setupHomepageDrag();
@@ -209,6 +215,7 @@
 
         }
 
+        var youtubePlayer = null;
         function tweenEasterEggVideo(event) {
 
             addAudioFile('foot-sound-effect');
@@ -253,11 +260,6 @@
         }
 
     })($)
-
-    $(document).ready(function () {
-        HomePage.init();
-    });
-
 
 })(jQuery)
 

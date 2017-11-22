@@ -39,7 +39,7 @@ code {
 }
 
 .site__paragraph-text {
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   font-size: 20px;
   line-height: 1.6;
   max-width: 700px;
@@ -48,7 +48,7 @@ code {
 }
 
 .site__paragraph-link {
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   font-size: 20px;
   line-height: 1.6;
 }
@@ -71,7 +71,7 @@ code {
 .site__blockquote {
   margin: auto;
   max-width: 500px;
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   font-size: 18px;
 }
 
@@ -82,7 +82,7 @@ code {
 }
 
 .site__book-title {
-  font-family: "Ledger", "Times", "serif";
+  font-family: "Ledger", "Times", serif;
   font-size: 20px;
   line-height: 1.6;
   font-style: italic;
@@ -339,6 +339,13 @@ hr.section-divider:before {
   text-shadow: 0 0 19px white;
 }
 
+@media screen and (max-width: 425px) {
+  .easter-egg__close {
+    top: -40px;
+    right: 20px;
+  }
+}
+
 .easter-egg__appendage {
   position: absolute;
   width: 80%;
@@ -385,7 +392,7 @@ body {
   z-index: 0;
 }
 
-.wf-brandonprinted-n4-active .-text-in-focus .homepage-background {
+.wf-brandonprinted-n4-active .-text-in-focus .homepage-background, .-font-failed .-text-in-focus .homepage-background {
   -webkit-filter: blur(8px);
           filter: blur(8px);
 }
@@ -404,7 +411,7 @@ body {
   transition: 1s cubic-bezier(0.42, 0, 0, 0.99);
 }
 
-.wf-brandonprinted-n4-active .-text-in-focus .homepage-scaling-container {
+.wf-brandonprinted-n4-active .-text-in-focus .homepage-scaling-container, .-font-failed .-text-in-focus .homepage-scaling-container {
   -webkit-filter: blur(0);
           filter: blur(0);
   opacity: 1;
@@ -421,7 +428,7 @@ body {
 .homepage-banner__heading {
   margin: 0;
   font-size: 138px;
-  font-family: "BrandonPrinted", "sans-serif";
+  font-family: "BrandonPrinted", sans-serif;
   line-height: 1em;
 }
 
@@ -435,27 +442,13 @@ body {
   max-width: 800px;
   margin: auto;
   font-size: 36px;
-  font-family: "BrandonPrinted", "sans-serif";
+  font-family: "BrandonPrinted", sans-serif;
 }
 
 @media screen and (max-width: 500px) {
   .homepage-banner__subheading {
     font-size: 8vw;
   }
-}
-
-footer {
-  color: rgba(221, 255, 255, 0.45);
-  position: absolute;
-  left: 20px;
-  right: 0;
-  bottom: 20px;
-  margin: auto;
-  padding: 0;
-}
-
-.footer__page-width {
-  max-width: none;
 }
 
 .photo-focus {
@@ -488,8 +481,4 @@ footer {
 
 .photo-focus__button:hover {
   text-shadow: 0 0 10px;
-}
-
-footer {
-  background: none;
 }

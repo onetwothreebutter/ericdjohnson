@@ -1,3 +1,6 @@
+@import ../../../../styles/sass/breakpoints
+
+
 .easter-egg
   position: absolute
   height: 40px
@@ -25,6 +28,9 @@
   font-size: 20px
   cursor: pointer
   text-shadow: 0 0 19px white
+  @media screen and (max-width: $mobile-portrait)
+    top: -40px
+    right: 20px
 
 .easter-egg__appendage
   position: absolute
