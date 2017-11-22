@@ -54,9 +54,6 @@ function get_page_css_file_path() {
         WebFont.load({
             custom: {
                 families: ['BrandonPrinted']
-            },
-            fontinactive: function() {
-                document.getElementsByTagName('html')[0].classList.add('-font-failed');
             }
         });
     </script>

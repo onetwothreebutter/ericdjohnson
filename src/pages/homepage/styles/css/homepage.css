@@ -392,7 +392,7 @@ body {
   z-index: 0;
 }
 
-.wf-brandonprinted-n4-active .-text-in-focus .homepage-background, .-font-failed .-text-in-focus .homepage-background {
+.wf-brandonprinted-n4-active .-text-in-focus .homepage-background, .wf-brandonprinted-n4-inactive .-text-in-focus .homepage-background {
   -webkit-filter: blur(8px);
           filter: blur(8px);
 }
@@ -411,7 +411,7 @@ body {
   transition: 1s cubic-bezier(0.42, 0, 0, 0.99);
 }
 
-.wf-brandonprinted-n4-active .-text-in-focus .homepage-scaling-container, .-font-failed .-text-in-focus .homepage-scaling-container {
+.wf-brandonprinted-n4-active .-text-in-focus .homepage-scaling-container, .wf-brandonprinted-n4-inactive .-text-in-focus .homepage-scaling-container {
   -webkit-filter: blur(0);
           filter: blur(0);
   opacity: 1;
