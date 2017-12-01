@@ -6,10 +6,10 @@
 
 <?php
     include ROOT_PATH . '/utility-functions.php';
-    $d1 = new DateTime('2011-04-01');
+    $d1 = new DateTime('2013-02-19');
     $d2 = new DateTime();
     $diff = $d2->diff($d1);
-    $blueyah_years = numberToWord($diff->y);
+    $telecommute_years = numberToWord($diff->y);
 ?>
 
     <section class="who-banner">
@@ -32,7 +32,7 @@
     <section class="site__section">
         <p class="site__paragraph-text">
             I’m a creative, good-humored guy who cares a lot about user-friendly experiences, civic
-            responsibility, and the environment. I've been a web developer for <?php print (date('Y') - 2006); ?> years, and for the past <?php print $blueyah_years; ?> years I've been
+            responsibility, and the environment. I've been a web developer for <?php print (date('Y') - 2006); ?> years, and for the past <?php print $telecommute_years; ?> years I've been
             telecommuting from an acreage outside Iowa City, where my wife and I grow
             pick-your-own blueberries. We are also the stewards of two rambunctious llamas, <a class="site__paragraph-link" href="https://twitter.com/llama_jake" target="_blank">Jake</a> and <a
                     class="site__paragraph-link" href="https://twitter.com/llama_elwood" target="_blank">Elwood</a>, and we're renovating our 100-year
@@ -66,7 +66,7 @@
 
         <h2 class="site__section-heading">A Connector</h2>
         <p class="site__paragraph-text">
-            I have a underlying drive to connect people and reveal their common ground.
+            I have an underlying drive to connect people and reveal their common ground.
             Part of the reason I like co-leading our local chapter of Citizens' Climate Lobby is that CCL's approach involves
             having civil, respectful conversations with Democrats and Republicans about climate change. And I have a pet
             project of developing an app that helps
