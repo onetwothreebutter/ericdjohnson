@@ -118,7 +118,10 @@
     <h2 class="site__section-heading">Morphing Video Play Button</h2>
     <p class="site__paragraph-text">
         I've coded a few video play buttons in my time, and one night I had a dream about a play button that morphed into
-        the video. In my spare time I created the proof-of-concept is below (unfortunately, it's a little buggy on Safari). I have also made progress on an SVG version.
+        the video. I created a couple versions of my concept below.
+    </p>
+    <p class="site__paragraph-text">Pure CSS proof-of-concept, animating the border property
+        (unfortunately, it's a little buggy on Safari).
     </p>
     <div class="site__codepen-embed">
         <p data-height="465" data-theme-id="0" data-slug-hash="LNvxow" data-default-tab="result"
@@ -126,6 +129,18 @@
             Pen <a href="http://codepen.io/ericdjohnson/pen/LNvxow/">Morphing Play Button</a> by Eric Johnson (<a
                     href="http://codepen.io/ericdjohnson">@ericdjohnson</a>) on <a href="http://codepen.io">CodePen</a>.
         </p>
+        <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </div>
+    <p class="site__paragraph-text">
+        SVG version, which uses Greensock web animation library to morph the play button triangle into a rectangle where
+        the video will play.
+    </p>
+    <div class="site__codepen-embed">
+        <p data-height="465" data-theme-id="0" data-slug-hash="QaLPjZ" data-default-tab="result"
+           data-user="ericdjohnson" data-embed-version="2" data-pen-title="SVG Morphing Play Button" class="codepen">See
+            the Pen <a href="https://codepen.io/ericdjohnson/pen/QaLPjZ/">SVG Morphing Play Button</a> by Eric Johnson (<a
+                    href="https://codepen.io/ericdjohnson">@ericdjohnson</a>) on <a
+                    href="https://codepen.io">CodePen</a>.</p>
         <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
     </div>
 </section>
