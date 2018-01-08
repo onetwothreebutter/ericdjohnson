@@ -2,7 +2,13 @@
 
 <?php include ROOT_PATH . 'page-components/html-head/html-head.php'; ?>
 
-<div class="homepage-background"></div>
+<div class="homepage-background eric-and-elwood">
+    <div class="just-eric"></div>
+    <div class="just-eric"></div>
+    <div class="just-eric"></div>
+    <div class="just-eric"></div>
+    <div class="just-eric"></div>
+</div>
 <div class="homepage-background-helper"></div>
 <div class="easter-egg">
 </div>
