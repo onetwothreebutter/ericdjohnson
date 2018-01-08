@@ -450,9 +450,30 @@ code {
   }
 }
 
+.contact__paragraph-text {
+  font-family: "Ledger", "Times", serif;
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__paragraph-text {
+    text-align: center;
+  }
+}
+
 .contact-link {
   margin-left: 140px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-link {
+    margin-left: 0;
+  }
 }
 
 .contact-link__text {
@@ -462,7 +483,9 @@ code {
 
 @media screen and (max-width: 768px) {
   .contact-link__text {
+    display: block;
     text-decoration: underline;
+    margin-left: 0;
   }
 }
 

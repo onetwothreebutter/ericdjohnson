@@ -23,19 +23,19 @@
     <hr class="section-divider"/>
 <section class="site__section">
     <h2 class="site__section-heading">Contact Info</h2>
-    <p class="site__paragraph-text">
+    <p class="contact__paragraph-text">
         <a class="contact-link" href="mailto:eric.d.johnson@gmail.com">
             <img class="email-icon" src="/src/pages/contact-me/images/opened-email-envelope.svg" alt="envelope with @ sign" title="Icon made by https://www.flaticon.com/authors/ocha"/>
             <span class="contact-link__text">eric.d.johnson@gmail.com</span>
         </a>
     </p>
-    <p class="site__paragraph-text">
+    <p class="contact__paragraph-text">
         <a class="contact-link" href="tel:+13194009903">
             <img class="phone-icon" src="/src/pages/contact-me/images/cell-phone.svg" alt="cell phone" title="Icon made by https://www.flaticon.com/authors/freepik"/>
             <span class="contact-link__text">(319) 400-9903</span>
         </a>
     </p>
-    <p class="site__paragraph-text">
+    <p class="contact__paragraph-text">
         <a class="contact-link" href="https://www.linkedin.com/in/er1cj0hns0n/">
             <img class="linked-in-logo" src="/src/pages/contact-me/images/In-Black-81px-R--colored.png" alt="LinkedIn logo"/>
             <span class="contact-link__text">linkedin.com/in/er1cj0hns0n</span>

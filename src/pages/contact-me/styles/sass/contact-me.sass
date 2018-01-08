@@ -23,15 +23,25 @@
     height: 960px
 
 
+
+.contact__paragraph-text
+  @include site__paragraph-text()
+  @media screen and (max-width: $tablet-portrait)
+    text-align: center
+
 .contact-link
   margin-left: 140px
   text-decoration: none
+  @media screen and (max-width: $tablet-portrait)
+    margin-left: 0
 
 .contact-link__text
   margin-left: 30px
   font-family: $ledger
   @media screen and (max-width: $tablet-portrait)
+    display: block
     text-decoration: underline
+    margin-left: 0
 
 .phone-icon
   width: 80px
